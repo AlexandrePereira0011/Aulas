@@ -9,6 +9,7 @@ import { ReadmegeneratorComponent } from './readmegenerator/readmegenerator.comp
 import { HomeComponent } from './home/home.component';
 import { ExperimentComponent } from './experiment/experiment.component';
 import { FormsModule } from '@angular/forms';
+import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     CalculadoraComponent,
     ReadmegeneratorComponent,
     HomeComponent,
-    ExperimentComponent
+    ExperimentComponent,
+    EvAndRefComponent
   ],
   imports: [
     BrowserModule,
