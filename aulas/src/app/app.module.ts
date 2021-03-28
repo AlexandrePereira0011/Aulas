@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { ExperimentComponent } from './experiment/experiment.component';
 import { FormsModule } from '@angular/forms';
 import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
+import { FichaAnimalComponent } from './ficha-animal/ficha-animal.component';
+import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
     ReadmegeneratorComponent,
     HomeComponent,
     ExperimentComponent,
-    EvAndRefComponent
+    EvAndRefComponent,
+    FichaAnimalComponent,
+    EscolheAnimalComponent
   ],
   imports: [
     BrowserModule,
