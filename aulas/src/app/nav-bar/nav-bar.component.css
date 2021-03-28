@@ -1,6 +1,52 @@
-.nav-active{
-    color:red;
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 3px 3px -2px #dddddd;
+    margin-bottom: 3vh;
+    padding-top: 10px;
+    
+
+  }
+.navbar p{
+    float: left;
+    color: #2e81eb;
+    padding: 18px 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    top: 0;
+    left: 0;
+    margin: 0;
+
+    display: block;
+}
+  .navbar a{
+    
+    float: right;
+    color: #2e81eb;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .navbar a:hover {
+    color: #f78e21;
+    transition: all 0.6s;
+  }
+
+  .nav-active{
+    color: #f78e21;
     font-size: large;
     font-weight: bold;
-    transition: all 1s;
+    transition: all 1.5s;
+    background-color:#dddddddd;
+    border-radius: 25px 25px;
+    
 }

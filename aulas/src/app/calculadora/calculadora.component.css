@@ -4,7 +4,7 @@ table {
     padding-left: 15px;
     padding-bottom: 15px;
     padding-top: 28px;
-    padding-right: 8px;
+    padding-right: 0px;
     border-radius: 4%;
     overflow-x: auto;
     border:2px solid #9f9f9f;
@@ -60,7 +60,7 @@ table {
 
 .meio {
     margin: auto;
-    margin-top: 25vh;
+    margin-top: 15vh;
 }
 
 .cinzento-escuro:active,.botao-duplo:active {
