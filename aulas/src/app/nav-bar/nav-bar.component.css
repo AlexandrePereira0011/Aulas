@@ -42,10 +42,10 @@
 
   .navMain-active{
     color: #f78e21;
-    font-size: large;
-    font-weight: bold;
+
     transition: all 1.5s;
     background-color:#dddddddd;
     border-radius: 25px 25px;
     
 }
+

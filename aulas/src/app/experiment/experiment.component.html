@@ -1,13 +1,19 @@
-<div class="margem-esquerda">
+<div class="jumbotron">
     <input type="text" (input)="changeName($event)" value={{name}} [style.background]="name" #ref> 
+
+    <h1 *ngIf="name == 'Alexandre'">Oh raio és tu!</h1>
+    
     <p>Olá {{name}}</p>
-
+    
     <input (focus)="isfocus($event)">
-
+    
     <h2>Diretiva NG for</h2>
-    <div *ngFor="let animal of arrayAnimais">
-    <h4>{{animal}}</h4>
+    <div *ngFor="let animal of arrayAnimais; let i=index">
+    <h4 [ngStyle]="{'color': i%2==0 ? 'Orange':'Blue'}">{{animal}} </h4>
     </div>
-    <button class="botao" (click)='analisarReferencia()'>Referencia</button>
+    
+    <button class="btn" [ngClass]="{' btn-warning': name == 'Alexandre' ? true : false }" (click)='analisarReferencia()'>Referencia</button>
+    
     <button class="botao" (click)='analisarReferenciaParametro(ref)'>Ref parametro</button>
 </div>
+

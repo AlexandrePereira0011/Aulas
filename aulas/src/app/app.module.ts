@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
 import { FichaAnimalComponent } from './ficha-animal/ficha-animal.component';
 import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.componen
     ExperimentComponent,
     EvAndRefComponent,
     FichaAnimalComponent,
-    EscolheAnimalComponent
+    EscolheAnimalComponent,
+    CookiesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,31 @@
+.containerCookies{
+    bottom: 0%;
+    height: 9vh;
+    width: 100%;
+    animation: animacaoSubir;
+    animation-duration: 1s;
+    position: fixed;
+    background-color: #2e81eb;
+    color:white ;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+@keyframes animacaoSubir{
+ from{bottom: -25vh;}
+ to{ bottom: 0%;}
+}
+
+.descer{
+    animation: animacaoDescer;
+    animation-duration: 1s;
+   
+}
+
+
+@keyframes animacaoDescer{
+     from{ bottom: 0%;}
+     to{bottom: -25vh;}
+   }
