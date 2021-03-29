@@ -12,8 +12,8 @@ export class CalculadoraComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  tela="";
-  conta="";
+  tela:any="";
+  conta:any="";
   ultimoNumero:number;
 
 
